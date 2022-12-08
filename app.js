@@ -41,7 +41,7 @@ app.use(function (err, req, res, next) {
 mongoose.connect("mongodb://adminrozerapp:19Vicky93%408050849022@143.244.128.159:27017/rozerbagh?authMechanism=DEFAULT&authSource=admin&readPreference=primary&appname=lemarchnad&directConnection=true&ssl=false", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
-  useFindAndModify: false,
+  // useFindAndModify: false,
 }).then(res => {
   // console.log(res)
   console.log("mongodb is connected successfully");
